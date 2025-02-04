@@ -9,6 +9,7 @@ body {
     background-color: #f5f5f5;
     color: #333;
     line-height: 1.6;
+    flex-wrap:wrap;
 }
 
 header {
@@ -156,6 +157,7 @@ h3 {
     margin-top: 2rem;
     border: 20px;
     border-radius: 10px;
+    flex-wrap:wrap;
 }
 
 .timeline-item {
@@ -285,6 +287,7 @@ footer {
 @media (max-width: 768px) {
     .nav-links {
         display: none;
+        flex-wrap:wrap;
         position: absolute;
         top: 100%;
         left: 0;
@@ -516,6 +519,7 @@ footer {
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
             text-align: center;
+            flex-wrap:wrap;
         }
 
         .certificate-card:hover {
